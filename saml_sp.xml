@@ -1,0 +1,30 @@
+<EntityDescriptor entityID="https://newsamlpoc2.australiasoutheast.cloudapp.azure.com/mellon/metadata" xmlns="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+  <SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIC9DCCAdwCCQC5BEZlwi9d1jANBgkqhkiG9w0BAQUFADA8MTowOAYDVQQDEzFu
+ZXdzYW1scG9jMi5hdXN0cmFsaWFzb3V0aGVhc3QuY2xvdWRhcHAuYXp1cmUuY29t
+MB4XDTE2MDIyMzIzNTkxOFoXDTI2MDIyMjIzNTkxOFowPDE6MDgGA1UEAxMxbmV3
+c2FtbHBvYzIuYXVzdHJhbGlhc291dGhlYXN0LmNsb3VkYXBwLmF6dXJlLmNvbTCC
+ASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMqmCOVvxSZow4c+PUGOIBO2
+PEbGMH3ByojPdiN9XGz54gdczwRQya4TaNN9SjvMRkxQj3PxUaPsY2hlkq1ZCJ6z
+pLIieGGHXj86bz/R9YPCdMgDN8v0AvDITwaPAgH9QNEhM+jEPG5crAgQ2vsVmab/
+C2Q0RPTfF4SrGs+I+P20M4ybsDlNTMH4CcNZSP1CEvzBKtn9Dqnh5HhsiXaooiE6
+K0gAsmiWtulhPI+3Cdt+O7oFkR4mrv1aFEJk6NiXqmUsbpx/kKSGBg6gO22e0vVu
+Gep0XZ1hyKyE41E63gKyx6tM6T0sHlgI/0ubxTm1Cilqkfvn5n7NictmNWEWtSkC
+AwEAATANBgkqhkiG9w0BAQUFAAOCAQEAtQUvOFIy1YdEbgHJeoE0TmyDdlnLG3ES
+/yvzug4NYRy28r7kT6j84+em3K8N/RqJ1TNk1Po5sIwei+7lkRv688jdT+6XGadh
+c3UzDLwZfdDnSyL1/iXkdN/ZmbNEg8BJmFHdwTM+6vEkoyHMuRCzRVj6/VBHkFbW
+rpYmYtT/BP4c9Xm8dG3Qdc8IGoBhIEorrJ97yg51C8dI2UPcrP5Am41l/nqmMmHG
+28ZFKbIsx4uIDinNo8c5CWG6mu1dujK2dwnbhSEKeLvpWyskbEVuVi+Yo4yncDTZ
+ZKBOkl6F/9tMEs2Apy6WyvONzg7cvFOcPgj3QYKTLVGVlGr66phDVQ==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </KeyDescriptor>
+    <SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://newsamlpoc2.australiasoutheast.cloudapp.azure.com/mellon/logout"/>
+    <NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</NameIDFormat>
+    <AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://newsamlpoc2.australiasoutheast.cloudapp.azure.com/mellon/postResponse" index="0"/>
+    <NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</NameIDFormat>
+  </SPSSODescriptor>
+</EntityDescriptor>
